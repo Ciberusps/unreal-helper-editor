@@ -41,6 +41,7 @@ From source:
 ## Documentation
 
 > - [Custom thumnails](#custom-thumnails)
+> - [TODO Custom class icon](#)
 
 ---
 
