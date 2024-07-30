@@ -51,3 +51,5 @@ From source:
 ![image](https://github.com/user-attachments/assets/c24fd8bb-0ffe-4666-afd5-8800df650c35)
 
 **Custom thumnails** - to override thumbnail by your own, just implement `IUHECustomThumbnail` interface and define your own icon using `GetCustomThumbnailIcon()`
+
+Thanks to [this post](https://forums.unrealengine.com/t/custom-thumbnail-not-display-asset-is-never-loaded/143155/2?u=ciberus) and [this](https://forums.unrealengine.com/t/custom-thumbnail-on-blueprint/337532/3?u=ciberus)
