@@ -41,13 +41,11 @@ From source:
 ## Documentation
 
 > - [Custom thumnails](#custom-thumnails)
-> - [TODO Custom class icon](#)
+> - [TODO Custom class icon](#custom-class-icon)
 
 ---
 
 ### Custom thumnails
-
-#### `Custom thumnails`
 
 ![image](https://github.com/user-attachments/assets/c24fd8bb-0ffe-4666-afd5-8800df650c35)
 
@@ -56,3 +54,17 @@ From source:
 ⚠️ for now works only with C++, TODO add support for blueprints
 
 Thanks to [this post](https://forums.unrealengine.com/t/custom-thumbnail-not-display-asset-is-never-loaded/143155/2?u=ciberus) and [this](https://forums.unrealengine.com/t/custom-thumbnail-on-blueprint/337532/3?u=ciberus)
+
+
+### Custom class icon
+
+[//]: # (![image]&#40;https://github.com/user-attachments/assets/c24fd8bb-0ffe-4666-afd5-8800df650c35&#41;)
+
+**Custom class icon** - to override classes icons on your own, just implement set settings in `UHESettings`
+
+List of default Unreal Engine Editor icons - https://github.com/EpicKiwi/unreal-engine-editor-icons
+
+⚠️ for now works only with C++, TODO add support for blueprints
+
+Thanks to [this post](https://www.quodsoler.com/blog/customize-your-unreal-class-icons) and [this](https://forums.unrealengine.com/t/how-to-load-a-font-uasset-and-use-it-for-fslatefontinfo/1548466/3?u=ciberus)
+
