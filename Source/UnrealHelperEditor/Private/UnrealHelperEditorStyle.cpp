@@ -53,7 +53,7 @@ TSharedRef< FSlateStyleSet > FUnrealHelperEditorStyle::Create()
         FString Path = CustomClassIcon.Texture2D.GetLongPackageName();
         UObject* IconImageObject = LoadObject<UObject>(nullptr, *Path);
 
-        if (IsValid(IconImageObject))
+        if (IsValid(IconImageObject) && IsValid(CustomClassIcon.Class))
         {
             UTexture2D* IconImage = Cast<UTexture2D>(IconImageObject);
             // FSlateDynamicImageBrush* DynamicImageBrush = new FSlateDynamicImageBrush(IconImage, Icon20x20, FName("CapsuleHitRegistrator"));
