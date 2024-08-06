@@ -42,6 +42,7 @@ From source:
 
 > - [Custom thumnails](#custom-thumnails)
 > - [TODO Custom class icon](#custom-class-icon)
+> - [TODO Custom class icon](#custom-class-icon)
 
 ---
 
@@ -68,3 +69,7 @@ List of default Unreal Engine Editor icons - https://github.com/EpicKiwi/unreal-
 
 Thanks to [this post](https://www.quodsoler.com/blog/customize-your-unreal-class-icons) and [this](https://forums.unrealengine.com/t/how-to-load-a-font-uasset-and-use-it-for-fslatefontinfo/1548466/3?u=ciberus)
 
+
+### Merge textures Ao + Roughness + Metalic
+
+https://github.com/Atulin/ChannelMerger
